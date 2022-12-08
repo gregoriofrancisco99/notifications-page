@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://notificationspage.vercel.app/)
+- [Link to the solution](https://notificationspage.vercel.app/)
 
 ### Built with
 
@@ -45,8 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-With this project I put my JavaScrips knownlodge on test. I needed a solution for that would read the data inside my Objects and chance it's value (for the **Note: "Mark all read"** functionality) and I ended up with the following code:
-...
+With this project I put my JavaScrips knownlodge on test. I needed a solution that could read the data inside my Objects and chance it's value (for the **"Mark all read"** functionality) and I ended up with the following code:
 ```js	
 Object.entries(document.getElementsByClassName('row')).forEach(row => {
     row[1]
@@ -54,16 +53,13 @@ Object.entries(document.getElementsByClassName('row')).forEach(row => {
     .remove('unread')
   });
 ```
-...
-
-
 ### Continued development
 
 For my future projects, I want to be able to use ReactJS
 
 ### Useful resources
 
-- [Convert an Object to an Array in JavaScript](https://www.javascripttutorial.net/object/convert-an-object-to-an-array-in-javascript/) - This is an amazing article which helped get unstucked in a crucial moment of my code. I'd recommend it to anyone still learning this concept.
+- [Convert an Object to an Array in JavaScript](https://www.javascripttutorial.net/object/convert-an-object-to-an-array-in-javascript/) - This is an amazing article which helped get unstucked in a crucial moment of my code. I'd recommend it to anyone still learning how to manipulate Objects in Javascript.
 
 ## Author
 
