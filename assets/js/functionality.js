@@ -110,7 +110,7 @@ const notificationsPanel = {
     notificationsPanel.presentNotifications();
   },
   notificationBuilder() {
-    const notificationsHub = document.querySelector('main');
+    const notificationsHub = document.querySelector('div#main');
     
     notificationsPanel.notifications.forEach(pieceOfInfo => {
       const Row = document.createElement('div');
