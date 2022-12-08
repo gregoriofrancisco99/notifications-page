@@ -148,6 +148,38 @@ div.row .content.message:hover {
 }
 
 /*responsivity =================================*/
+@media (max-width: 1400px) {
+  /*Global =================================*/
+  small, p, span{
+    font-size: 14px;
+  }
+  
+/*Header =======================================*/
+header {
+  width: 100%;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+header h2 {
+  font-size: 1.5rem;
+}
+header span {
+  margin-left: .5rem;
+  padding: .15rem .55rem;
+  font-size: 1rem;
+}
+  /*Section =================================*/
+  section {
+    width: 600px;
+    margin: 4em auto 0;
+    padding: 1rem 1.5rem;
+  }
+  /*rows =================================*/
+  div.row {
+    padding: .5rem;
+    margin-bottom: 0.6rem;
+  }
+}
 
 @media (max-width: 800px) {
   /*Global =================================*/
